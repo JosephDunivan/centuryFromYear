@@ -1,8 +1,8 @@
 function centuryFromYear(year) {
     if(year%100==0){
-        return parseInt(year/100);
+        var centuryFromYearResult = parseInt(year/100);
     }else{
-        return parseInt(year/100)+1;    
+       var centuryFromYearResult = parseInt(year/100)+1;
     }
-    
-}
+	return (centuryFromYearResult);
+};
